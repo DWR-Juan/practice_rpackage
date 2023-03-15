@@ -1,0 +1,15 @@
+Package: mytools
+Title: Practicing Making RPackages
+Version: 0.0.0.9000
+Authors@R: 
+    person("Juan", "De La Torre", , "Juan.DeLaTorre@water.ca.gov", role = c("aut", "cre"))
+Description: This package lets me practice making packages.
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    devtools
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

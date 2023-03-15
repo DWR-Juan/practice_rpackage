@@ -1,0 +1,15 @@
+# Notes
+
+- Creating packages serves two main use cases:
+  - Mechanism to redistribute reusable code (even if just for yourself)
+  - Mechanism to reproducibly document analysis and models and their results.
+
+- create_package() will create a top-level directory structure, including a number of critical files under the standard R package structure.
+  - DESCRIPTION file: metadata about package.
+
+- If your R code depends on functions from another package, then you must declare so in the `Imports` list in the `DESCRIPTION` file for your package.
+  - You can do this with `usethis::use_package("<Package-Name>")
+
+- Questions:
+  - How does licensing work?
+  - What was up with that warning message that I got at the beginning of the process?
